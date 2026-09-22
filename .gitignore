@@ -1,0 +1,11 @@
+# Generated per-run artifacts — not part of the skill itself
+work/
+out/
+
+# Source/answer PDFs the user processes with this skill (large, copyrighted exam material)
+*.pdf
+!templates/*.pdf
+
+__pycache__/
+*.pyc
+.DS_Store
